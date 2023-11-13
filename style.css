@@ -36,6 +36,7 @@ header>.interface {
 
 header a{
     color: #000000c9;
+    font-size: 20px;
     text-decoration: none;
     display: inline-block; /* para deixar com que o menor fique grande quando o mouse passar*/
 }
@@ -69,6 +70,7 @@ header .botao-ctt button:hover {
 /* ESTILO DO TOPO */
 section.topo-do-site {
     padding: 40 4%;
+    padding-bottom: 150px;
 }
 section.topo-do-site .flex {
     align-items: center;
@@ -137,13 +139,62 @@ main .botao-ctt button:hover {
 
 /*Começo estilo "Razões"*/
 
-section  h3{
-    font-size: 30px;
+section.razoes {
+    padding-top: 40px 4%;
+    background-color: #7e4aa4bd;
+    text-transform: uppercase;
+   
+}
+.razoes-box div{
+    padding-top: 50px;
+    padding-left: 20px;
     
 }
+section.razoes .flex {
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 10%;
 
-section.razoes {
-    padding: 100 ;
-   
+}
+.imagem-razao {
+    
+}
+section h3{
+    font-size: 30px;
+    padding-top: 60px;
+    color: #FBB80F;
+    text-align: center;
+    
+        
+}
+h3 {
+    font-family: 'Bakbak One', sans-serif;
+    
+    
+}
+h3 span {
+     color: #fef9f6;
+     font-family: 'Bakbak One', sans-serif;
+         
+}
+div i {
+    color: #fef9f6;
+    font-size: 20px;
+ }
+ div p {
+    color: #fef9f6;
+    font-size: 12px;
+ }
+
+/*Inicio estilo Portifólio*/
+
+section.portfolio h3{
+    font-size: 30px;
+    padding-top: 60px;
+    color: #7e4aa4;
+    text-align: center;
+    
+        
 }
 
