@@ -80,7 +80,7 @@ section.topo-do-site .flex {
    
 }
 .txt-topo-site h1  {
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
     font-family: 'Bakbak One', sans-serif;
     letter-spacing: 7.255px;
@@ -133,5 +133,17 @@ main .botao-ctt button:hover {
         top: 30px;
     }
 
+}
+
+/*Começo estilo "Razões"*/
+
+section  h3{
+    font-size: 30px;
+    
+}
+
+section.razoes {
+    padding: 100 ;
+   
 }
 
