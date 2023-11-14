@@ -190,14 +190,32 @@ div i {
     font-size: 12px;
  }
 
+
 /*Inicio estilo Portifólio*/
+
+section.portfolio{
+  padding: 80px 4%;  
+}
 
 section.portfolio h3{
     font-size: 30px;
-    padding-top: 90px;
+    padding-top: 80px;
     color: #7e4aa4;
     text-align: center;
             
+}
+div.interface h3 {
+    padding-bottom: 100px;
+}
+
+section.portfolio .flex {
+   justify-content: space-around
+}
+.img-port {
+    width: 360px;
+    height: 460px;
+   
+   
 }
 
 div.imagem-razao{ 
