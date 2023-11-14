@@ -155,11 +155,10 @@ section.razoes {
     
 }
 section.razoes .flex {
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-    gap: 5%;
+    justify-items: center;
+    gap: 10%;
     padding-bottom: 50px;
+    padding-right: 65px;
 
 }
 
@@ -195,18 +194,20 @@ div i {
 
 section.portfolio h3{
     font-size: 30px;
-    padding-top: 60px;
+    padding-top: 90px;
     color: #7e4aa4;
     text-align: center;
             
 }
 
-.razoes-box.imagem-razao{
-    position: relative;
-    
+div.imagem-razao{ 
+    width:600px; 
+    height:500px;
+     
 }
 .portfolio h3 {
    text-transform: uppercase;
+  
     
 }
 .portfolio h3 span {
