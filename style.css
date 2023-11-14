@@ -333,15 +333,23 @@ section.contato {
     padding: 80px 4%;
 }
 .txt-canais {  
+    color: var(--Lils-escuro-ID, #50048D);
+    font-family: Bakbak One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 9px;
     justify-content: center;
-    color: #7e4aa4;
-    text-transform: uppercase;
-    font-size: 35px;
-    font-family: 'Bakbak One', sans-serif;
 }
-p.txt-contato {
-    color: #7e4aa4;    
+.txt-contato {
+    color: var(--Purple, #7F4AA4);    
     font-size: 20px;
+    font-style: normal;    
+    line-height: 132.1%; /* 45.074px */
+    letter-spacing: 0.853px;    
+    width: 1017px;
+    justify-content: center;
 }
 
 
