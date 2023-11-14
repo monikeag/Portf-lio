@@ -177,7 +177,7 @@ h3 {
     
     
 }
-h3 span {
+.interface h3 span {
      color: #fef9f6;
      font-family: 'Bakbak One', sans-serif;
          
@@ -204,6 +204,13 @@ section.portfolio h3{
 .razoes-box.imagem-razao{
     position: relative;
     
-
+}
+.portfolio h3 {
+   text-transform: uppercase;
+    
+}
+.portfolio h3 span {
+    color: #FBB80F;
+    
 }
 
