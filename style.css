@@ -329,28 +329,85 @@ section.servicos {
     transform: scale(1.0);
     
 }
+section.contato h3 {
+    font-size: 40px;
+    padding-top: 80px;
+    color: #7e4aa4;
+    text-align: center;
+    text-transform: uppercase;
+}
+section.contato p {
+    font-size: 20px;  
+    padding-bottom: 50px; 
+    color: #7e4aa4;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contato h3 span {
+    color: #FBB80F;
+    
+}
+
+/*Estilo Formulário*/
+
 section.contato {
     padding: 80px 4%;
 }
-.txt-canais {  
-    color: var(--Lils-escuro-ID, #50048D);
-    font-family: Bakbak One;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 9px;
+form {
+    max-width: 500px;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
-.txt-contato {
-    color: var(--Purple, #7F4AA4);    
+
+form input {
+    width: 100%;
+    padding: 10px 15px;    
+    background-color: rgba(217, 217, 217, 0.60);
+    border: none;
+    outline: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4.81955px 4.81955px 0px rgba(0, 0, 0, 0.25) inset;
+    
+    
+}
+textarea {
+    width: 100%;
+    padding: 10px 15px;
+    padding-bottom: 40px;    
+    background-color: rgba(217, 217, 217, 0.60);
+    border: none;
+    outline: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4.81955px 4.81955px 0px rgba(0, 0, 0, 0.25) inset;
+    
+}
+.btn-enviar input {
+    width: 100%;     
+    border-style: none;
+    background-color: #FBB80F;
+    box-shadow: 7px 5px 6px 0px #00000034;
+    border-radius: 10px;
+    color:#50048D;      
     font-size: 20px;
-    font-style: normal;    
-    line-height: 132.1%; /* 45.074px */
-    letter-spacing: 0.853px;    
-    width: 1017px;
     justify-content: center;
+    
+    
 }
+.btn-enviar input:hover {
+    color:#fef9f6;
+    box-shadow: 7px 5px 6px 0px #0000008a;
+    transform: scale(1.0);
+
+}
+.img-ctt {
+    position: relative;
+    
+   
+}
+
+
 
 
 
