@@ -266,7 +266,7 @@ div.imagem-razao{
     
 }
 .botao-port button {
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-style: none;
     background-color: #FBB80F;
     border-radius: 10px;
@@ -354,7 +354,7 @@ section.contato {
     padding: 80px 4%;
 }
 form {
-    max-width: 500px;
+    max-width: 500px;    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -401,6 +401,27 @@ textarea {
     transform: scale(1.0);
 
 }
+
+/*Estilo Rodapé */
+
+section.rodape {
+    padding: 20px 4%;    
+    background-color: #7e4aa4;
+}
+section ul li {
+    list-style-type: none;
+    
+    color: #fef9f6;
+    
+}
+
+section.rodape li {
+    display:inline-block;
+    justify-content: center;
+    margin-left: 100px;  
+
+}
+
 
 
 
