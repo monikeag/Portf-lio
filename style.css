@@ -369,11 +369,10 @@ form input {
     outline: 0;
     border-radius: 20px;
     box-shadow: 0px 4.81955px 4.81955px 0px rgba(0, 0, 0, 0.25) inset;
-    
-    
+        
 }
-textarea {
-    width: 100%;
+
+textarea {    
     padding: 10px 15px;
     padding-bottom: 40px;    
     background-color: rgba(217, 217, 217, 0.60);
@@ -384,7 +383,8 @@ textarea {
     
 }
 .btn-enviar input {
-    width: 100%;     
+    width: 100%;
+    align-items: center; 
     border-style: none;
     background-color: #FBB80F;
     box-shadow: 7px 5px 6px 0px #00000034;
@@ -401,11 +401,8 @@ textarea {
     transform: scale(1.0);
 
 }
-.img-ctt {
-    position: relative;
-    
-   
-}
+
+
 
 
 
