@@ -422,7 +422,22 @@ section.rodape li {
 
 }
 
+@media screen and (max-width:1090px) {
+   /*Classe geral*/
+   .flex {
+    flex-direction: column;
+   }
+   .topo-do-site .flex {
+    flex-direction: column-reverse;
+   }
 
+   
+    /*Menu*/
+    .menu-desktop, .botao-ctt {
+    display: none;
+
+   } 
+}
 
 
 
