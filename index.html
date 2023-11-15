@@ -175,11 +175,11 @@
                     <h3> Canais de <span>contato</span>:</h3>
                     <p>Tem alguma dúvida ou deseja fazer um pré orçamento? Preencha o formulário com máximo de detalhe.</p>
                                
-                    <form action="">
-                        <input type="text" name="" id="" placeholder="Nome Completo" required>
-                        <input type="text" name="" id="" placeholder="Seu E-mail" required>
-                        <input type="text" name="" id="" placeholder="Telefone (xx)xxxx-xxxx">
-                        <textarea name="" id="" placeholder="Sua mensagem aqui..." required></textarea>
+                    <form method="post" action="envia.php">
+                        <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                        <input type="text" name="email" id="email" placeholder="Seu E-mail" required>
+                        <input type="text" name="telefone" id="telefone" placeholder="Telefone (xx)xxxx-xxxx">
+                        <textarea name="msg" id="msg" placeholder="Sua mensagem aqui..." required></textarea>
                         <div class="btn-enviar"><input type="submit" value="ENVIAR"> </div>
 
                     </form>
