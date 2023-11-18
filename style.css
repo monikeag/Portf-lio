@@ -145,7 +145,7 @@ main .botao-ctt button:hover {
 
 section.razoes {
     padding-top: 40px 4%;
-    background-color: #7e4aa4bd;
+    background-color: #7e4aa4;
     text-transform: uppercase;
    
 }
@@ -273,6 +273,7 @@ div.imagem-razao{
     color: #fef9f6;
     align-items: center;
     font-size: 30px;
+    cursor: pointer;
     
        
 }
@@ -320,6 +321,7 @@ section.servicos {
     align-items: flex-start;
     font-size: 30px;
     margin-left: 30%;
+    cursor: pointer;
     
        
 }
@@ -327,6 +329,7 @@ section.servicos {
     color:#FBB80F;
     box-shadow: 8px 6px 7px 0px #0000008a;
     transform: scale(1.0);
+
     
 }
 section.contato h3 {
@@ -392,6 +395,7 @@ textarea {
     color:#50048D;      
     font-size: 20px;
     justify-content: center;
+    cursor: pointer;
     
     
 }
